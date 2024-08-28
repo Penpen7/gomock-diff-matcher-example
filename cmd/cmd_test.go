@@ -26,7 +26,7 @@ func TestRun(t *testing.T) {
 		matcher.DiffEq(
 			cmd.User{
 				ID:        "1",
-				Name:      "Penpen7",
+				Name:      "Penpen",
 				CreatedAt: time.Date(2021, 1, 1, 0, 0, 0, 0, time.UTC),
 			},
 		),
